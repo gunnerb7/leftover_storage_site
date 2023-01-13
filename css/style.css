@@ -1,0 +1,118 @@
+body {
+    background: #000000 url(../css/bg.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em;
+    height: 600px;
+    
+
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+body p {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    text-shadow: 0 1px 0 #000;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1 {
+    text-decoration: underline #fff;
+    text-shadow: rgb(5, 185, 240) 0 1px 0;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #fff;
+
+}
+.footer {
+    width: auto;
+    border: whitesmoke;
+    position: absolute;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 0;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    
+}
+
+#nav li, ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: rgb(5, 185, 240) 0 1px 0;
+    background-color: #000;
+    
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: red;   
+    font-size: larger;
+    font-weight: 100;
+    text-shadow: rgb(5, 185, 240) 0 1px 0;
+}
+
+.gmail {
+    width: 45px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+
+}
+
+.gmail:hover {
+    color: red;
+    font-size: larger;
+    font-weight: 100;
+    background-color: rgba(255, 0, 0, 0.856);
+    border-radius: 50%;
+    transform: scale(1.2);
+    
+}
+
+.referal img {
+    width: 100%;
+    height: 75px;
+} 
