@@ -62,17 +62,20 @@ p.caption {
   
 } 
 .container img:hover + .caption {
-  transform: translateY(-200%);
+ 
   scale: -100%;
   rotate: 180deg;
-  padding: 30%;
+  padding: 35%;
   transition: all 0.5s ease-in-out;
-  transform: scale(1.2);
-  transform: translateX(-100%);
-  margin-bottom: -100%;
-  font-size: 35px;
+  transform: scale(1.5);
+  transform: translateX(16%);
+  margin-bottom: -150%;
+  font-size: 40px;
   border-radius: 40%;
   width: 220%;
+  /* added this change if issues */
+  height: 220%;
+  margin-top: -100%;
 
   
 }
