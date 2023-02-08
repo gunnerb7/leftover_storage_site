@@ -11,7 +11,7 @@
     <header class="header">
       <h1>STUFF FOR SALE!!!</h1>
     </header>
-    <div class="gallery">
+<!--- <div class="gallery">
       <img src="./img/action-figure.jpeg" >
       <img src="img/messages_0 (1).jpeg">
       <img src="img/messages_0 (10).jpeg">
@@ -24,15 +24,139 @@
       <img src="img/messages_0 (9).jpeg">
       <img src="img/messages_0.jpeg">
       <img src="img/sniper_book.jpeg">
-      <div class="container">
-        <img src="./car_pics/car.jpeg">
-          <p class="caption">$3500-170,000+ miles</p>
+    </div>-->
+    <div class="container">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 13</div>
+            <img src="/Photo Gallery/img/action-figure.jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 13</div>
+            <img src="./car_pics/car1.jpeg" style="width:100%">
+            <div class="text">$3500-170,000+ miles</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 13</div>
+            <img src="./car_pics/car2.jpeg" style="width:100%">
+            <div class="text">$3500-170,000+ miles</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 13</div>
+            <img src="./car_pics/car3.jpeg" style="width:100%">
+            <div class="text">$3500-170,000+ miles</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 13</div>
+            <img src="./car_pics/car4.jpeg" style="width:100%">
+            <div class="text">$3500-170,000+ miles</div>
+          </div> 
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 13</div>
+            <img src="./car_pics/car5.jpeg" style="width:100%">
+            <div class="text">$3500-170,000+ miles</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 13</div>
+            <img src="/Photo Gallery/img/messages_0 (2).jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 13</div>
+            <img src="/Photo Gallery/img/messages_0 (5).jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>      
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 13</div>
+            <img src="/Photo Gallery/img/messages_0 (6).jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 13</div>
+            <img src="/Photo Gallery/img/messages_0 (7).jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">10 / 13</div>
+            <img src="/Photo Gallery/img/messages_0 (8).jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">11 / 13</div>
+            <img src="/Photo Gallery/img/messages_0 (9).jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">12 / 13</div>
+            <img src="/Photo Gallery/img/messages_0.jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">13 / 13</div>
+            <img src="/Photo Gallery/img/sniper_book.jpeg" style="width:100%">
+            <div class="text">Name your PRICE*</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>   
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+          <span class="dot" onclick="currentSlide(10)"></span>
+          <span class="dot" onclick="currentSlide(11)"></span>
+          <span class="dot" onclick="currentSlide(12)"></span>
+          <span class="dot" onclick="currentSlide(13)"></span>
+        </div>
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if(n > slides.length) {
+              slideIndex = 1
+            }
+            if(n < 1) {
+              slideIndex = slides.length
+            }
+            for(i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for(i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+          }
+        </script>
+      
+      
+<!--        <div class="container">
+            <img src="./car_pics/car2.jpeg">
+            <img src="./car_pics/car3.jpeg">
+            <img src="./car_pics/car4.jpeg">
+            <img src="./car_pics/car5.jpeg">
+          <div class="container">
+            <img src="./car_pics/car.jpeg">
+             <!--- <p class="caption">$3500-170,000+ miles</p>-->
+          </div>
+        </div>
       </div>
-      <img src="./car_pics/car1.jpeg">
-      <img src="./car_pics/car2.jpeg">
-      <img src="./car_pics/car3.jpeg">
-      <img src="./car_pics/car4.jpeg">
-      <img src="./car_pics/car5.jpeg">
-    </div>
   </body>
 </html>
