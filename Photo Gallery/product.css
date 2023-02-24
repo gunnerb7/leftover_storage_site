@@ -115,6 +115,10 @@ p.caption {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    border-color: aliceblue;
+    border-style: groove;
+    
+  
     }
   /* Position the "next button" to the right */
   .next {
@@ -197,7 +201,7 @@ footer {
   background-color: #0a0a23;
   color: #fff;
   text-align: center;
-  padding: 32px;
+  padding: 25px;
   border-top: 4px solid maroon;
 }
 
