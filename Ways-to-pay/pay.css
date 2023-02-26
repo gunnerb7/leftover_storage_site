@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
     box-sizing: border-box;
     font-size: large;
 
@@ -30,7 +30,7 @@ nav ul {
 }
 
 ul a:hover {
-    background: #000;
+    background: #0000003d;
     color: #fff;
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
@@ -51,10 +51,10 @@ ul a:hover {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #000;
+    background: #00000042;
     color: #fff;
     font-size: 1.2em;
-    line-height: 1.5;
+    line-height: 1.5em;
     font-weight: 300;
     padding: 0;
     margin: 3% auto 0 auto;
@@ -64,7 +64,12 @@ body {
     transition: calc(1s / 3);
     
 }
-
+a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: rgb(5, 185, 240) 0 1px 0;
+    transition: calc(1s / 3);
+}
 /* ADDED THIS TO SEE IF IT WOULD WORK*/
 
 body{
@@ -101,8 +106,8 @@ body{
     cursor: pointer;
     justify-items: center;
     justify-content: space-between;
-    line-height: .6em;
-    padding: .6rem;
+    line-height: .9em;
+    padding: .2rem;
     margin: .6rem;
     
 } 
@@ -125,7 +130,7 @@ body{
     cursor: pointer;
     margin: 0;
     justify-content: space-between;
-    line-height: 1em;
+    line-height: .4em;
     padding: 0;
 }
 
@@ -141,7 +146,7 @@ body{
 }
 
 footer {
-    background-color: #743104;
+    background-color: #940e04;
     color: #fff;
     font-size: 1em;
     line-height: 1em;
