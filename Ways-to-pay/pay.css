@@ -74,10 +74,7 @@ a {
 
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100vw;
-    overflow: hidden;
+    flex-direction: column;
 
 }
 .heart{
@@ -92,10 +89,10 @@ body{
     }
 }
 
-.card{
+.card {
     position: relative;
     width: auto;
-    background: fff;
+    background: #0000003d;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);;
     display: grid;
@@ -106,9 +103,9 @@ body{
     cursor: pointer;
     justify-items: center;
     justify-content: space-between;
-    line-height: .9em;
+    line-height: .5em;
     padding: .2rem;
-    margin: .6rem;
+    margin: .5rem;
     
 } 
     
@@ -118,10 +115,8 @@ body{
 .card:hover .container{
     transform: scale(1.5);
 }
-.container{
+.container {
     position: relative;
-    width: 100%;
-    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -131,7 +126,8 @@ body{
     margin: 0;
     justify-content: space-between;
     line-height: .4em;
-    padding: 0;
+
+
 }
 
 .green{
@@ -146,12 +142,11 @@ body{
 }
 
 footer {
+    display: fixed;
+    justify-content: center;
     background-color: #940e04;
     color: #fff;
     font-size: 1em;
-    line-height: 1em;
-    font-family: 'Roboto', sans-serif;
-    bottom: 0%;
-    
-
+    bottom: 0;
+    margin: 100px auto 0 auto;
 }
