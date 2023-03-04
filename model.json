@@ -1,8 +1,8 @@
 {
-  ":name": "FrontAid CMS Example Model",
-  ":description": "This is a simple example of a FrontAid CMS model. You can change and extend it according to your needs, for example add new fields or restructure it. You can edit this file by cloning this repository and update it with your local editor and push it back into this Git repository. ",
+  ":name": "Upload a image!!",
+  ":description": "Please upload your product and put your price that you would like ",
   "custom-field": {
-    ":description": "This example text is used as a description.",
+    ":description": "add a description if you want.",
     ":type": "line"
   },
   "custom-object": {
