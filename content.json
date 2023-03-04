@@ -1,1 +1,8 @@
-{}
+{
+  "custom-list": [],
+  "custom-field": "product",
+  "custom-object": {
+    "custom-line": "image",
+    "custom-text": "list price and anything else here"
+  }
+}
