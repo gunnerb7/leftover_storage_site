@@ -5,11 +5,11 @@
     ":description": "add a description if you want.",
     ":type": "line"
   },
-  "custom-object": {
-    "custom-line": {
-      ":type": "line"
+  "image": {
+    "upload-image": {
+      ":type": "image"
     },
-    "custom-text": {
+    "list price and description under here": {
       ":type": "text"
     }
   },
