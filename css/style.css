@@ -5,13 +5,14 @@ body {
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1.5em;
-    height: 100%;
+    height: auto;
+    margin: 0 ;
 
 }
 
 .container {
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.5);
@@ -21,7 +22,7 @@ body {
     padding: 0;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    
+    height: fit-content;
 }
 body p {
     color: #fff;
@@ -42,26 +43,6 @@ h1 {
     line-height: 2em;
     color: #fff;
 
-}
-
-.footer {
-    width: auto;
-    border: whitesmoke;
-    position: absolute;
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: .5em;
-    bottom: 0px;
-    left: 0%;
-    right: 0%;
-    line-height: 1em;
-    padding: 0;
-    margin: 0;
-    text-shadow: rgb(5, 185, 240) 0 1px 0;
-
- 
 }
 
 #nav li, ul{
@@ -115,21 +96,75 @@ a:hover {
     transform: scale(1.2);
     
 }
+.footer {
+  width: 100%;
+  border: whitesmoke;
+  background-color: #000000;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .5em;
+  bottom: 0px;
+  line-height: 1em;
+  padding: 0.5em;
+  margin: 0;
+  text-shadow: rgb(5, 185, 240) 0 1px 0;
+  text-align: center;
+  
+}
 
 .referal img {
     width: 100%;
-    margin-bottom: 0;
+    margin: auto;
     bottom: 0;
     padding: 0;
-    text-align: center;
-    max-width: 80%;
     border-radius: 50%;
     border: 2px solid #fff;
     box-shadow: 0 0 10px #fff;
     cursor: crosshair;
     transition: all 0.5s ease-in-out;
-
 } 
-#dad main iframe{
-    z-index: 2;
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid maroon;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 0;
+  line-height: .4em;
+  
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.card .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+.card .card-body {
+  padding-bottom: 0.75rem;
+}
+.card .card-body a {
+  color: maroon;
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid maroon;
+  border-radius: 0.25rem;
+  background-color: maroon;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: auto;
+  max-width: fit-content;
 }
