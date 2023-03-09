@@ -154,6 +154,10 @@ a:hover {
   color: maroon;
   text-decoration: underline;
 }
+button {
+  background-color: maroon;
+  color: #fff;
+}
 
 .btn {
   display: inline-block;
@@ -165,6 +169,18 @@ a:hover {
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
-  margin: auto;
-  max-width: fit-content;
+  margin: 1em 3.5rem  0;
+  z-index: 1;
+  position: absolute;
+  background-color: aqua;
+
+}
+.btn:hover {
+  background-color: #fff;
+  color: maroon;
+  border: 1px solid maroon;
+}
+
+iframe{
+  border-radius: 20%;
 }
