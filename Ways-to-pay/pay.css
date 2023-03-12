@@ -31,7 +31,7 @@ nav ul {
 
 ul a:hover {
     background: #0000003d;
-    color: #fff;
+    color: aqua;
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
     padding: 0.5em 0;
@@ -44,8 +44,7 @@ ul a:hover {
     margin: 0 auto 0 auto;
     text-shadow: rgb(5, 185, 240) 0 1px 0;
     text-decoration: none;
-    transition: ca            <h2 class="orange">Crypto</h2>
-    lc(1s / 3);
+    transition: calc(1s / 3);
 
 }
 
@@ -62,6 +61,8 @@ body {
     text-decoration: none;
     text-shadow: rgb(5, 185, 240) 0 1px 0;
     transition: calc(1s / 3);
+    background: fixed url(https://www.quoteinspector.com/media/money/money-qi29-wo.jpg) no-repeat center center;
+    background-size: cover;
     
 }
 a {
@@ -103,14 +104,17 @@ body{
     cursor: pointer;
     justify-items: center;
     justify-content: space-between;
-    line-height: .5em;
+    line-height: 1em;
     padding: .2rem;
     margin: .5rem;
+    
     
 } 
     
 .card:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    color: aqua;
 }
 .card:hover .container{
     transform: scale(1.5);
@@ -126,6 +130,7 @@ body{
     margin: 0;
     justify-content: space-between;
     line-height: .4em;
+    overflow: flex;
 
 
 }
@@ -150,3 +155,5 @@ footer {
     bottom: 0;
     margin: 100px auto 0 auto;
 }
+
+
